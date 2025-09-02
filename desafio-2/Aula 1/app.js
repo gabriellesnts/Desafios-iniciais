@@ -33,6 +33,14 @@ function botaoSoma () {
     let resultado = numeroInteiro1 + numeroInteiro2;
 } alert = soma (`A soma de ${numeroInteiro1} + ${numeroInteiro2} é igual a: ${resultado}`);
 
+// resposta mais correta da questão 6
+function somandoDoisNumeros() {
+    let primeiroNumero = parseInt(prompt('Digite o primeiro número'));
+    let segundoNumero = parseInt(prompt('Digite o segundo número'));
+    let resultado = primeiroNumero + segundoNumero;
+    alert(`${primeiroNumero} + ${segundoNumero} = ${resultado}`)
+}
+
 // outro ponto de vista da questão 6
 function botaoSoma() {
     let numeroInteiro1 = prompt('Digite um número inteiro:');
